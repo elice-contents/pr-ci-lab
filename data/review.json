@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "decision": "request_changes",
+  "findings": [
+    {
+      "severity": "high",
+      "file": "src/quota.py",
+      "line": 4,
+      "reason": "상한 초과 시 음수 반환"
+    }
+  ]
+}

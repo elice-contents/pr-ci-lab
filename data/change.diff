@@ -1,0 +1,6 @@
+diff --git a/src/quota.py b/src/quota.py
+--- a/src/quota.py
++++ b/src/quota.py
+@@ -4 +4 @@
+-    return max(0, limit - used)
++    return limit - used
